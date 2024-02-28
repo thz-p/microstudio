@@ -214,3 +214,11 @@ define("ace/mode/microscript_highlight_rules", ["require", "exports", "module", 
         }
     });
 })();
+
+// 这段代码定义了一个 ACE 编辑器的模式（Mode），名为 `microscript`，用于支持 Microscript 编程语言的语法高亮和折叠功能。其主要包含以下几个部分：
+
+// 1. 定义了语法高亮规则（`MicroscriptHighlightRules`），包括关键字、函数、常量、变量等的匹配规则。
+// 2. 定义了折叠规则（`FoldingMicroscript`），用于根据特定关键字对代码进行折叠。
+// 3. 定义了 `Microscript` 模式，继承自 ACE 编辑器的 `text` 模式，并引入了语法高亮和折叠规则。
+// 4. 提供了一些方法，如获取下一行的缩进、自动缩进和创建工作线程等。
+// 5. 最后将 `Microscript` 模式导出以供其他模块使用。
